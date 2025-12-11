@@ -1,2 +1,15 @@
-.env/
+# Ignore environment files
+.env
+
+# Ignore database files
+*.sqlite3
+
+# Ignore node modules
 node_modules/
+
+# Python / Django
+__pycache__/
+*.pyc
+
+# Vite build
+dist/
